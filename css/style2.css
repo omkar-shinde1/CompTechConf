@@ -1,0 +1,1284 @@
+/*Start Global Styles*/
+*
+{
+  outline: none;
+    box-sizing: border-box;
+}
+
+ /*.container-fluid {
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-left: 0 auto;
+   padding-right: 0 auto;
+  }*/
+
+
+*:not(.carousel-indicators)
+
+body {
+  font-family: "Raleway", sans-serif;
+
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #353535;
+  position: relative;
+}
+
+h1, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+
+h2 {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+}
+
+h1
+{
+  font-size: 33px;
+  font-family: "Raleway", sans-serif;
+}
+
+
+h3 {
+  font-size: 18px;
+  font-family: OpenSans, sans-serif;
+}
+
+
+h4 {
+  font-size: 17px;
+}
+
+
+
+
+
+a 
+{
+  color: #121212;
+  text-decoration: none;
+}
+
+a:hover 
+{
+  text-decoration: underline;
+  color: #121212;
+}
+/*End of the Global Styles*/
+
+
+
+
+
+/*Start of the carousel section styling*/
+
+#carousel .carousel-inner .carousel-item img
+{
+  width: 100%;
+  height: 530px;
+}
+
+ .carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 60px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+#carousel .carousel .carousel-inner .carousel-item .carousel-caption .blink_me
+{  
+  animation: blinker 1.3s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+#carousel .carousel .carousel-inner .carousel-item .carousel-caption a
+{
+
+  background: #92D050;
+  padding: 10px 30px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+#carousel .carousel .carousel-inner .carousel-item .carousel-caption h1
+{
+  font-size: 55px;
+  font-weight: 1100;
+  padding: 30px 0;
+}
+
+#carousel .carousel .carousel-inner .carousel-item .carousel-caption h2
+{
+  text-transform: none;
+  padding: 50px 0;
+}
+
+/*
+.carousel-inner>.carousel-item {
+    -webkit-transition: -webkit-transform 1.2s ease-in-out !important;
+    -o-transition: -o-transform 1.2s ease-in-out !important;
+    transition: transform 1.2s ease-in-out !important;
+}*/
+/*End of the carousel section styling*/
+
+
+/*Information section*/
+
+#information
+{
+  margin: 15px 0;
+}
+
+#information .information-block
+{
+  padding: 20px;
+  background: #f2f2f2;
+}
+
+#information .information-heading h2
+{
+  font-size: 23px;
+  color: #000e25;
+  font-weight: 600;
+  margin: 0 0 20px;
+}
+
+#information .information-block .information-content
+{
+  text-align: justify;
+}
+/* end:Information section */
+
+
+/*start of the other information section*/
+
+#other-information
+{
+  margin: 15px 0;
+}
+
+#other-information .other-information-block
+{
+  padding: 20px;
+}
+
+#other-information .other-information-block .section-heading
+{
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+#other-information .other-information-block .section-heading h2
+{
+  color: #92D050;
+  font-weight: 900;
+  margin: 0 0 5px;
+}
+
+#other-information .other-information-block .section-heading span
+{
+  height: 4px;
+  background: #ffbc01;
+  width: 10%;
+  display: block;
+  margin: 0px auto;
+}
+
+#other-information .other-information-block .other-information-content
+{
+  text-align: justify;
+}
+/*end of the other information section*/
+
+
+
+/*Start of the scientific session section*/
+
+#scientific-session
+{
+  margin: 15px 0;  
+}
+
+#scientific-session .scientific-session-block
+{
+  padding: 20px;
+}
+
+#scientific-session .scientific-session-block .section-heading
+{
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+#scientific-session .scientific-session-block .section-heading h2
+{
+  color: #92D050;
+  font-weight: 900;
+  margin: 0 0 5px;
+}
+
+#scientific-session .scientific-session-block .section-heading span
+{
+  height: 4px;
+  background: #ffbc01;
+  width: 7%;
+  display: block;
+  margin: 0px auto;
+}
+
+#scientific-session .scientific-session-block .scientific-session-content .block
+{
+  border: 1px solid #CCC;
+  border-bottom: 2px solid #ffbc01;
+  margin: 0 0 8px 0;
+  padding: 14px;
+}
+
+#scientific-session .scientific-session-block .scientific-session-content .block:hover
+{
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+
+#scientific-session .scientific-session-block .scientific-session-content .block-view-all
+{
+  margin: 0 0 8px 0;
+  padding: 22px;  
+  background: #92D050;
+  text-align: center;
+}
+
+#scientific-session .scientific-session-block .scientific-session-content .block-view-all a
+{
+  color: #FFF;
+  padding: 20px 0;
+}
+
+#scientific-session .scientific-session-block .scientific-session-content .block-view-all:hover
+{
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+/*End of the scientific session section*/
+
+
+/*Start of the scientific committee section*/
+
+#scientific-committee
+{
+  margin: 15px 0;  
+  background: #92D050;
+}
+
+#scientific-committee .scientific-committee-block
+{
+  padding: 20px;
+}
+
+#scientific-committee .scientific-committee-block .section-heading
+{
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+#scientific-committee .scientific-committee-block .section-heading h2
+{
+  font-weight: 900;
+  margin: 0 0 5px;
+  color: #FFF;
+}
+
+#scientific-committee .scientific-committee-block .section-heading span
+{
+  height: 4px;
+  background: #ffbc01;
+  width: 7%;
+  display: block;
+  margin: 0px auto;
+}
+
+#scientific-committee .scientific-committee-block .committee-members
+{
+  margin: 10px 0;
+}
+
+#scientific-committee .scientific-committee-block .committee-members .member-image
+{
+  margin: 0 0 8px;
+}
+
+#scientific-committee .scientific-committee-block .committee-members .member-image img
+{
+  width: 100%;
+  height: auto;
+}
+
+#scientific-committee .scientific-committee-block .committee-members h3
+{
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+#scientific-committee .scientific-committee-block .committee-members p
+{
+  text-align: center;
+  font-size: 13px;
+  border-bottom: 1px solid #FFF;
+  padding: 0 0 8px;
+}
+
+#scientific-committee .scientific-committee-block .committee-members h3,.committee-members p
+{
+  color: #FFF;
+}
+
+
+#scientific-committee .scientific-committee-block .view-all-committee-members
+{
+  text-align: center;
+  margin: 30px 0;
+}
+
+#scientific-committee .scientific-committee-block .view-all-committee-members a
+{
+  background: #FFF;
+  padding: 10px 25px;
+  border: 2px solid #ffbc01;
+  color: #ffbc01;
+  font-weight: 500;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+#scientific-committee .scientific-committee-block .view-all-committee-members a:hover
+{
+  background: #ffbc01;
+  color: #FFF;
+  text-decoration: none;
+}
+/*End of the scientific committee section*/
+
+
+
+
+/*speakers section*/
+
+#speakers
+{
+  margin: 15px 0;  
+}
+
+#speakers .speakers-block
+{
+  padding: 20px;
+}
+
+#speakers .speakers-block .section-heading
+{
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+#speakers .speakers-block .section-heading h2
+{
+  font-weight: 900;
+  margin: 0 0 5px;
+  color: #92D050;
+}
+
+#speakers .speakers-block .section-heading span
+{
+  height: 4px;
+  background: #ffbc01;
+  width: 7%;
+  display: block;
+  margin: 0px auto;
+}
+
+#speakers .speakers-block .speakers-members
+{
+  margin: 10px 0;
+}
+
+#speakers .speakers-block .speakers-members:hover
+{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#speakers .speakers-block .speakers-members .member-image
+{
+  margin: 0 0 8px;
+}
+
+#speakers .speakers-block .speakers-members .member-image img
+{
+  width: 100%;
+  height: auto;
+}
+
+#speakers .speakers-block .speakers-members h3
+{
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+#speakers .speakers-block .speakers-members p
+{
+  text-align: center;
+  font-size: 13px;
+  padding: 0 0 8px;
+}
+
+#speakers .speakers-block .speakers-members h3,.speakers-members p
+{
+  color: #121212;
+}
+
+
+#speakers .speakers-block .view-all-speakers
+{
+  text-align: center;
+  margin: 30px 0;
+}
+
+#speakers .speakers-block .view-all-speakers a
+{
+  background: #FFF;
+  padding: 10px 25px;
+  border: 2px solid #000e25;
+  color: #000e25;
+  font-weight: 500;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+#speakers .speakers-block .view-all-speakers a:hover
+{
+  background: #ffbc01;
+  color: #FFF;
+  text-decoration: none;
+}
+
+/*end:speakers section*/
+
+
+
+/*Start of the schedule section*/
+
+#schedule
+{
+  margin: 15px 0;
+}
+
+#schedule .schedule-block
+{
+  padding: 20px;
+}
+
+#schedule .schedule-block .section-heading
+{
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+#schedule .schedule-block .section-heading h2
+{
+  font-weight: 900;
+  margin: 0 0 5px;
+  color: #000e25;
+}
+
+#schedule .schedule-block .section-heading span
+{
+  height: 4px;
+  background: #ffbc01;
+  width: 7%;
+  display: block;
+  margin: 0px auto;
+}
+
+#schedule .schedule-block .schedule-content
+{
+  padding: 15px 0;
+}
+
+#schedule .schedule-block .schedule-content .accordion .card-header
+{
+  background: #2F651C;
+  text-align: center;
+}
+
+#schedule .schedule-block .schedule-content .accordion .card-header button
+{
+  color: #FFF;
+}
+
+#schedule .schedule-block .schedule-content .accordion .card-header button h2
+{
+  font-size: 20px;
+}
+
+
+#schedule .schedule-block .schedule-content .accordion .card .card-body .schedule-time
+{
+  padding: 5px 10px;
+  background: #EDFAE8;
+  border: 1px solid #CCC;
+  margin: 10px 0;
+}
+/*End of the schedule section*/
+
+
+
+
+
+/*YOUTUBE SLIDER*/
+
+#youtube {
+  background-size: cover;
+  margin: 0px 0 30px;
+}
+
+#youtube .section-heading
+{
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+#youtube .section-heading h2
+{
+  font-weight: 900;
+  margin: 0 0 5px;
+  color: #000e25;
+}
+
+#youtube .section-heading span
+{
+  height: 4px;
+  background: #ffbc01;
+  width: 7%;
+  display: block;
+  margin: 0px auto;
+}
+
+#youtube-slider {
+  padding: 20px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#youtube-slider .slick-slide {
+  padding: 0 20px;
+}
+
+#youtube-slider .youtube-slider-item iframe {
+  width: 100%;
+  height: 230px;
+}
+
+#youtube-slider h4 {
+  color: #fff;
+  padding: 10px 10px;
+  background: #2F651C;
+}
+
+
+#youtube-slider .slick-prev {
+  left: -35px;
+  top: 40%;
+}
+
+#youtube-slider .slick-next {
+  right: -8px;
+  top: 42%;
+}
+
+#youtube-slider .slick-prev:before,
+#youtube-slider .slick-next:before {
+  font-size: 50px;
+  color: #ffbc01;
+}
+
+/*end: YOUTUBE SLIDER*/
+
+
+/*------------------------------------------------------------------------------------------------------------
+--------------------------------------------- index.php end of the style--------------------------------------
+--------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*---------------------------------------------Scientic Committee page----------------------------------*/
+
+#committe-members
+{
+  margin: 30px 0;
+}
+
+#committe-members .committe-members-block
+{
+  margin: 15px 0;
+  border: 1px solid #CCC;
+  padding: 5px;
+  transition: 0.3s;
+}
+
+#committe-members .committe-members-block:hover
+{
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+#committe-members .committe-members-block .committe-members-image img
+{
+  width: 100%;
+  height: auto;
+}
+
+#committe-members .committe-members-block .committe-members-details
+{
+  text-align: center;
+  padding: 15px 0 0;
+}
+
+#committe-members .committe-members-block .committe-members-details h3
+{
+  font-size: 15px;
+  color: #3F7D29;
+}
+
+#committe-members .committe-members-block .committe-members-details p
+{
+  font-size: 14px;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------
+---------------------------------------------  End of the Scientific Committe page --------------------------------------
+--------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*---------------------------------------------Speakers page----------------------------------*/
+
+
+#speaker
+{
+  margin: 30px 0;
+}
+
+#speaker .speakers-block
+{
+  margin: 15px 0;
+  border: 1px solid #CCC;
+  padding: 15px 15px 15px 15px;
+  transition: 0.3s;
+}
+
+#speaker .speakers-block:hover
+{
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+#speaker .speakers-block .speakers-image img
+{
+  width: 100%;
+  height: auto;
+}
+
+#speaker .speakers-block .speakers-details
+{
+  text-align: center;
+  padding: 15px 0 0;
+}
+
+#speaker .speakers-block .speakers-details h3
+{
+  font-size: 15px;
+  color: #3F7D29;
+}
+
+#speaker .speakers-block .speakers-details p
+{
+  font-size: 14px;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------
+---------------------------------------------  End of the Speakers page --------------------------------------
+--------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------- Scientific Session page ----------------------------------*/
+
+#scientific_session
+{
+  margin: 30px 0;
+}
+
+#scientific_session .accordion .card
+{
+  margin: 0 0 20px;
+}
+
+#scientific_session .accordion .card .card-header
+{
+  background: #92D050;
+}
+
+#scientific_session .accordion .card .card-header a
+{
+  text-decoration: none;
+}
+
+#scientific_session .accordion .card .card-header h5
+{
+  font-size: 15px;
+  color: #000e25;
+}
+
+#scientific_session .accordion .card .card-header i
+{
+  float: right;
+}
+
+#scientific_session .accordion .card .card-body
+{
+  border: 1px solid #121212;
+}
+
+#scientific_session .accordion .card .card-body li
+{
+  font-size: 15px;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------
+---------------------------------------------  End of the Scientific Session page --------------------------------------
+--------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------- Scientific Programs page ----------------------------------*/
+
+#scientific-programs
+{
+  margin: 30px 0;
+}
+
+#scientific-programs .scientific-programs-block
+{
+  padding: 10px 0;
+}
+
+#scientific-programs .scientific-programs-block .accordion .card
+{
+  border: none;
+  margin: 0 0 20px;
+}
+
+#scientific-programs .scientific-programs-block .accordion .card .card-header
+{
+  border: none;
+  text-align: center;
+  background: #000e25;
+}
+
+#scientific-programs .scientific-programs-block .accordion .card .card-header a
+{
+  text-decoration: none;
+  color: #FFF;
+}
+
+#scientific-programs .scientific-programs-block .accordion .card .card-body .details-block
+{
+  padding: 10px;
+  border:1px solid #CCC;
+  margin: 10px 0 0;
+  transition: 0.3s;
+}
+
+#scientific-programs .scientific-programs-block .accordion .card .card-body .details-block:hover
+{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#scientific-programs .scientific-programs-block .accordion .card .card-body .details-block h3
+{
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #000e25;
+}
+
+#scientific-programs .scientific-programs-block .accordion .card .card-body .details-block p
+{
+  font-size: 14px;
+  color: #000;
+}
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------
+---------------------------------------------  End of the Scientific Programs page --------------------------------------
+--------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------- Venue page ----------------------------------*/
+
+#venue
+{
+  margin: 30px 0;
+}
+
+#venue p
+{
+  text-align: justify;
+}
+
+#venue iframe
+{
+  padding: 15px 0;
+  width: 100%;
+  height: 370px;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------
+---------------------------------------------  End of the Venue page --------------------------------------
+--------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------- Accommodation page ----------------------------------*/
+
+#accommodation
+{
+  margin: 30px 0;
+}
+
+#accommodation h2
+{
+  text-transform: none;
+  margin: 30px 0;
+  font-weight: 600;
+}
+
+#accommodation p
+{
+  text-align: justify;
+}
+
+#accommodation iframe
+{
+  padding: 15px 0;
+  width: 100%;
+  height: 370px;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------
+---------------------------------------------  End of the Accommodation page --------------------------------------
+--------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------- Guidelines page ----------------------------------*/
+
+#guidelines
+{
+  margin: 30px 0;
+}
+
+#guidelines .guidelines-block ul li
+{
+  text-align: justify;
+  margin: 20px 0;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------
+---------------------------------------------  End of the Guidelines page --------------------------------------
+--------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------- FAQ page ----------------------------------*/
+
+/* #faq
+{
+  margin: 30px 0;
+}
+
+#faq .faq-block .accordion .card
+{
+  margin: 30px 0;
+  border:none;
+}
+
+#faq .faq-block .accordion .card .card-header
+{
+  border: none;
+  background: #F6F6F6;
+}
+
+#faq .faq-block .accordion .card .card-header h5
+{
+  font-size: 16px;
+  color: #000e25;
+} */
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------
+---------------------------------------------  End of the FAQ page --------------------------------------
+--------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------- Important Dates page ----------------------------------*/
+
+#important-dates
+{
+  margin: 30px 0;
+}
+
+#important-dates .important-dates-block .dates-details
+{
+  border: 1px solid #CCC;
+  height: 330px;
+}
+
+#important-dates .important-dates-block .dates-details .heading
+{
+  /* background: #; */
+  padding: 15px;
+}
+
+#important-dates .important-dates-block .dates-details .heading h3
+{
+  color: #FFF;
+  font-size: 16px;
+}
+
+#important-dates .important-dates-block .dates-details .details
+{
+  padding: 10px 15px;
+}
+
+#important-dates .important-dates-block .dates-details .details h3
+{
+  font-weight: 600;
+  font-size: 15px;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------
+---------------------------------------------  End of the Important Dates page --------------------------------------
+--------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------- Conference Broucher page ----------------------------------*/
+
+#broucher-download
+{
+  margin: 30px 0;
+}
+
+#broucher-download .broucher-download-block h2
+{
+  color: #ffbc01;
+  padding: 0 0 20px;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------
+---------------------------------------------  End of the Conference Broucher page --------------------------------------
+--------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------- sponsors-exhibitors page ----------------------------------*/
+
+#sponsors-exhibitors
+{
+  margin: 30px 0;
+}
+
+#sponsors-exhibitors .sponsors-exhibitors-block h2
+{
+  text-transform: none;
+  color: #ffbc01;
+  padding: 10px 0;
+  border-bottom: 2px solid #ffbc01;
+  margin: 0 0 20px ;
+}
+
+
+#sponsors-exhibitors .sponsors-exhibitors-block p
+{
+  text-align: justify;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------
+---------------------------------------------  End of the sponsors-exhibitors page --------------------------------------
+--------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------- past-events page ----------------------------------*/
+
+#past-events
+{
+  margin: 30px 0;
+}
+
+#past-events .past-events-block .events
+{
+  padding: 10px 10px;
+  transition: 0.3s;
+}
+
+#past-events .past-events-block .events:hover
+{
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+#past-events .past-events-block .events h4
+{
+  font-size: 13px;
+  color: #999999;
+  margin: 0 0 10px;
+}
+
+#past-events .past-events-block .events h3
+{
+  font-size: 20px;
+  color: #000000;
+  margin: 0 0 10px;
+}
+
+#past-events .past-events-block .events p
+{
+  color: #000000;
+  text-align: justify;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------
+---------------------------------------------  End of the past-events page --------------------------------------
+--------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------- about_organizers page ----------------------------------*/
+
+#about-organizers
+{
+  margin: 30px 0;
+}
+
+#about-organizers .about-organizers-block .organizers-info p
+{
+  margin: 0 0 25px;
+  color: #000000;
+  text-align: justify;
+  font-weight: 400;
+}
+
+#about-organizers .about-organizers-block .organizers-upcoming-events
+{
+  padding: 20px 0;
+}
+
+#about-organizers .about-organizers-block .organizers-upcoming-events h2
+{
+  text-transform: none;
+  font-weight: 600;
+  margin: 0 0 20px;
+  color: #000e25;
+}
+
+#about-organizers .about-organizers-block .organizers-upcoming-events .upcoming-events-block
+{
+  padding: 10px 10px;
+  border-bottom: 1px solid #CCC;
+}
+
+#about-organizers .about-organizers-block .organizers-upcoming-events .upcoming-events-block h4
+{
+  font-size: 13px;
+  color: #999999;
+  margin: 0 0 15px;
+}
+
+#about-organizers .about-organizers-block .organizers-upcoming-events .upcoming-events-block h3
+{
+  font-size: 16px;
+  color: #000e25;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+#about-organizers .about-organizers-block .organizers-upcoming-events .upcoming-events-block p
+{
+  text-align: justify;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------
+---------------------------------------------  End of the about_organizers page --------------------------------------
+--------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------- Contact page ----------------------------------*/
+
+#contact
+{
+  margin: 30px 0;
+}
+
+#contact .contact-heading
+{
+  margin: 20px 0;
+  text-align: center;
+}
+
+#contact .contact-heading h2
+{
+  color: #000e25;
+}
+
+#contact .contact-block 
+{
+  margin: 10px 0;
+  padding: 10px 10px;
+  border: 1px solid #CCC;
+}
+
+#contact .contact-block p
+{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  color: #000;
+}
+
+#contact .contact-block .contact-persons
+{
+  padding:0px;
+}
+
+#contact .contact-block .contact-persons h4
+{
+  font-size: 16px;
+  font-weight: 600;
+}
+.contact-persons  ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.fa-ul {
+  list-style: none; /* Remove default bullet points */
+ 
+}
+
+.fa-ul li {
+  position: relative;
+  padding-left: 25px; 
+  color:#353535;
+  font-size: 16px; 
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.fa-ul li::before {
+  content: "\f45c"; /* Unicode for 'fa-square-check' icon */
+  font-family: "Font Awesome 6 Free"; /* Specify the Font Awesome font */
+  font-weight: 900; /* Use the solid version */
+  color: #878D97; /* Green color for the icon */
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 0.6em; /* Adjust icon size if needed */
+  line-height: 2.8; /* Adjust the vertical alignment */
+}
+
+
+/*------------------------------------------------------------------------------------------------------------
+---------------------------------------------  End of the Contact page --------------------------------------
+--------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------- Submit Abstract page ----------------------------------*/
+
+#submit-abstract
+{
+  margin: 30px 0;
+}
+
+#submit-abstract .submit-abstract-heading
+{
+  margin: 20px 0;
+  text-align: center;
+}
+
+#submit-abstract .submit-abstract-heading h2
+{
+  color: #ffbc01;
+}
+
+#submit-abstract .submit-proposal
+{
+  text-align: justify;
+  padding: 15px 0; 
+}

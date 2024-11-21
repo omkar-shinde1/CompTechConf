@@ -1,0 +1,146 @@
+* {
+    font-family: 'Inter', sans-serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, p, h1, h2, h3, h4, h5, h6, span, a {
+    font-family: 'Inter', sans-serif !important;
+  } 
+
+/* All Keyframes Animaions */
+
+@keyframes slide-in {
+    0%{
+        transform: translateY(-90px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+.faq-heading{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+
+.faq1 p{
+    color: #f4cb1e;
+    font-size: 24px;
+   
+}
+.faq1 h1{
+    color:#0e121d;
+    font-size: 45px;
+    margin: 15px 0 20px 0;
+ 
+}
+
+.below{
+    display: inline-block; 
+    color:#878D97;
+    font-size: 16px;
+  
+}
+
+.slide1{
+    padding: 30px 150px 30px 150px;
+    color: #878D97;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.6;
+ 
+}
+
+.topic{
+    height: auto;
+    width: 100%;
+    padding: 30px 150px 30px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    font-size: 16px;
+    color: #878D97;
+}
+
+.topic-name{
+    height: 50px;
+    width: 100%;
+    /* background-color:#f8f8f8; */
+    display: flex;
+    align-items: center;
+    /* padding: 20px; */
+    color: #f4cb1e;
+    /* box-shadow: 10px 5px 10px 0px #d2d3d3; */
+}
+
+.topic-desc{
+    height: 40px;
+    width: 100%;
+    padding: 20px;
+    line-height: 1.6;
+ 
+}
+.emptybox{
+    height: 90px;
+    width: 100%;
+}
+
+@media (max-width: 700px){
+    .image-heading h1{
+        font-size: 40px;
+    }
+    .faq-heading{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 30px;
+       
+        padding-right: 30px;
+    }
+    .faq1{
+        margin-top: 50px;
+    }
+    .faq1 h1{
+        font-size: 30px;  
+    }
+    .below{
+        margin-bottom: 20px;
+    }
+    .slide1{
+        padding: 30px;
+    }
+    .topic{
+       
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center !important;
+        font-size: 16px;
+        color: #878D97;
+    }
+    
+    .topic-name{
+        height: 50px;
+        width: 100%;
+       font-size: 14px;
+    }
+    .topic-desc{
+        height: 100px;
+        width: 100%;
+    }
+    
+
+}

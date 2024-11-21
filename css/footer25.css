@@ -1,0 +1,145 @@
+* {
+  font-family: 'Inter', sans-serif ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #0E121D;
+  /* position: relative; */
+  left: 0; 
+  bottom: 0; 
+  width: 100%; 
+  color: white;
+  padding-top: 90px;
+  font-family: Arial, sans-serif;
+  height:auto;
+}
+
+/* Container for footer content */
+.footer-container {
+  display: flex;
+  justify-content: space-evenly; /* Center the sections */
+  /* flex-wrap: wrap; */
+  width: 100%;
+  padding-top:10px;
+  height: auto;
+}
+
+.footer-section {
+
+  width: 250px;
+  padding: 0px; 
+  
+}
+
+
+
+
+/* Footer links */
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+
+.footer-section ul li {
+  margin-top: 13px;
+  font-size: 16px;
+ 
+}
+.footer-section ul li a {
+ 
+  color: white;
+  text-decoration: none;
+  font-weight:500;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease, transform 0.4s ease; 
+  transition: color 0.3s ease, transform 0.6s ease, letter-spacing 0.6s ease;  /* Smooth transition for both color and transform */
+  position: relative; /* Relative positioning to enable smooth movement */
+  display: inline-block; /* Ensure the link behaves like a block element */
+}
+.footer-section ul li a:hover{
+  text-decoration: none !important;
+  color: #37C871;
+  transform:  translateX(0px); /* Slightly enlarge horizontally and move a little to the right */
+  letter-spacing: 1.2px; /* Add slight letter spacing on hover */
+}
+
+.tracks{
+  font-size: 25px !important;
+  font-family:'Jost',sans-serif;
+  margin-bottom: 20px;
+ 
+}
+.info{
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 2.05;
+}
+.social-media{
+  display: flex;
+  justify-content: space-evenly;
+  padding-left:40%;
+  padding-right: 40%;
+  align-items: center;
+  padding-top: 7%;
+}
+.icons{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Copyright line */
+.footer-copyright {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #ccc;
+  padding-top: 10px;
+  padding-bottom: 60px;
+ 
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 700px) {
+  .footer{
+      /* padding: 0px 20px -20px -20px; */
+      height: 1200px;
+      /* margin-left:-10px; */
+  }
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+      margin-left:0px;
+     margin-right:20px;
+   
+  }
+
+  .footer-section {
+      margin-top:30px;
+      max-width: 90%;
+      text-align: left;
+  }
+  .social-media{
+    
+      padding-left:20%;
+      padding-right: 20%;
+     
+  }
+  .icons{
+      height: 30px;
+      width: 30px;
+  }
+}

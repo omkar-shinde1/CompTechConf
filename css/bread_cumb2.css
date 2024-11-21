@@ -1,0 +1,43 @@
+/*Bread Cumb section*/
+
+#bread-cumb
+{
+  background: #000e25;
+ 
+}
+
+#bread-cumb .bread-cumb-links
+{ 
+  color: #fff;
+    padding: 170px 0 15px;
+}
+
+#bread-cumb .bread-cumb-links a
+{
+  font-weight: 500;
+  color: #FFF;
+  font-size: 13px;
+}
+
+#bread-cumb .bread-cumb-page
+{
+    padding: 5px 0 30px;  
+}
+
+#bread-cumb .bread-cumb-page h1
+{
+  font-size: 30px;
+  color: #FFF;
+}
+
+@media (max-width: 700px){
+  
+  #bread-cumb .bread-cumb-links
+  { 
+    color: #fff;
+      padding: 100px 0 15px;
+  }
+
+}
+
+/*end:Bread Cumb Section*/
